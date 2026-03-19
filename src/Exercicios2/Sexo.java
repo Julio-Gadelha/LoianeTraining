@@ -10,9 +10,9 @@ public class Sexo {
         String sexo =  scan.nextLine();
         scan.close();
 
-        if (sexo == "Feminino " || sexo == "F"){
+        if (sexo.equalsIgnoreCase("Feminino")  || sexo.equalsIgnoreCase("F") ){
             System.out.println(" E do sexo feminino");
-        } else{
+        } else if (sexo.equalsIgnoreCase("M" ) || sexo.equalsIgnoreCase("Masculino")){
             System.out.println("Masculino ");
         }
 

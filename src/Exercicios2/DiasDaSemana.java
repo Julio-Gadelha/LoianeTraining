@@ -31,9 +31,8 @@ public class DiasDaSemana {
             case 7 :
                 System.out.println("Sabado");
                 break;
-            case 8 :
+            default:
                 System.out.println("Numero invalido,tente outro! ");
-                break;
         }
     }
 }
