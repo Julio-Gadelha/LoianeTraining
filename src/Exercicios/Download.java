@@ -21,7 +21,7 @@ public class Download {
         // converter para minutos
         double tempoMinutos = tempoSegundos / 60;
 
-        System.out.println("\nTempo aproximado de download: " + tempoMinutos + " minutos");
+        System.out.println("Tempo aproximado de download: " + tempoMinutos + " minutos");
 
         sc.close();
     }
