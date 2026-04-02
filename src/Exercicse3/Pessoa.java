@@ -21,7 +21,7 @@ public class Pessoa {
 
         System.out.print("Digite a idade: ");
         idade = sc.nextInt();
-        while (idade < 0 || idade > 150) {
+        while (idade < 0 &&  idade > 150) {
             System.out.print("Idade inválida! Digite novamente: ");
             idade = sc.nextInt();
         }
@@ -48,5 +48,6 @@ public class Pessoa {
         }
 
         System.out.println("\nDados válidos!");
+        System.out.println("  Ate  sua proxima entrevista ! ");
     }
 }

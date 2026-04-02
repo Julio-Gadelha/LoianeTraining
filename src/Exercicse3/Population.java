@@ -13,7 +13,7 @@ public class Population {
             double taxaA, taxaB;
             int anos = 0;
 
-            // População A
+
             do {
                 System.out.print("Digite a população de A: ");
                 popA = sc.nextDouble();
@@ -22,7 +22,7 @@ public class Population {
                 }
             } while (popA <= 0);
 
-            // População B
+
             do {
                 System.out.print("Digite a população de B: ");
                 popB = sc.nextDouble();
@@ -31,7 +31,7 @@ public class Population {
                 }
             } while (popB <= 0);
 
-            // Taxa A
+
             do {
                 System.out.print("Digite a taxa de crescimento de A (%): ");
                 taxaA = sc.nextDouble();
@@ -40,7 +40,6 @@ public class Population {
                 }
             } while (taxaA <= 0);
 
-            // Taxa B
             do {
                 System.out.print("Digite a taxa de crescimento de B (%): ");
                 taxaB = sc.nextDouble();
@@ -49,7 +48,7 @@ public class Population {
                 }
             } while (taxaB <= 0);
 
-            // Cálculo
+
             while (popA < popB) {
                 popA += popA * (taxaA / 100);
                 popB += popB * (taxaB / 100);
@@ -58,7 +57,6 @@ public class Population {
 
             System.out.println("Anos necessários: " + anos);
 
-            // Repetir programa
             System.out.print("Deseja repetir? (s/n): ");
             continuar = sc.next().charAt(0);
 
