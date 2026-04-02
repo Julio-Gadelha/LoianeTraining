@@ -5,22 +5,23 @@ import java.util.Scanner;
 public class Usuario {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Digite seu nome ");
-        String nome = scan.nextLine();
-        System.out.println("Digite sua senha");
-        String password = scan.nextLine();
+        String nome;
+        String senha;
+
+        do {
+            System.out.println("Digite o nome do usuário:");
+            nome = scan.nextLine();
+
+            System.out.println("Digite sua senha:");
+            senha = scan.nextLine();
+
+            if (nome.equals(senha)) {
+                System.out.println("Digite outra senha!");
+            }
+
+        } while (nome.equals(senha));
+
+        System.out.println("Sua senha foi aceita");
         scan.close();
-
-        while( password == nome){
-            System.out.println("Não pode ");
-            break;
-        }
-        do{
-            System.out.println("valido");
-            break;
-        } while( password != nome);
-
-        }
-
-
+    }
 }
