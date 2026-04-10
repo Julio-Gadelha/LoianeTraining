@@ -17,7 +17,6 @@ public class Vetor31 {
             A[i] = sc.nextInt();
         }
 
-
         for (int i = 0; i < 20; i++) {
             if (A[i] % 2 == 0) {
                 B[pos] = A[i];
