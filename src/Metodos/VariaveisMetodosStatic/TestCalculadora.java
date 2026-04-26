@@ -1,4 +1,4 @@
-package VariaveisMetodosStatic;
+package Metodos.VariaveisMetodosStatic;
 
 public class TestCalculadora {
     public static void main(String[] args) {
