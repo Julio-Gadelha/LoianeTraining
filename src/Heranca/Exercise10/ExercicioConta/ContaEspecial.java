@@ -1,4 +1,4 @@
-package Heranca.Exercise10;
+package Heranca.Exercise10.ExercicioConta;
 
 public class ContaEspecial extends ContaBancaria {
     private double limite;

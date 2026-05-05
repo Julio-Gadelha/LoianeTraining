@@ -1,6 +1,8 @@
 package Heranca.Exercise10;
 
 
+import Heranca.Exercise10.ExercicioConta.ContaPoupanca;
+
 public class TestConta {
     public static void main(String[] args) {
 

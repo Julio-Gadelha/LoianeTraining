@@ -1,4 +1,4 @@
-package Heranca.Exercise10;
+package Heranca.Exercise10.ExercicioConta;
 
 
 public class ContaBancaria {
@@ -49,7 +49,7 @@ public class ContaBancaria {
         return saldo;
     }
 
-    protected void setSaldo(double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
