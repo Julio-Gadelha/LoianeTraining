@@ -5,6 +5,5 @@ public class Pessoa {
         String nome = "Gabriel";
         int age = 20;
         System.out.println("Ola meu nome e " + nome + " e tenho " + age + "anos");
-
     }
 }
