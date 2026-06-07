@@ -1,6 +1,6 @@
-package Interfaces;
+package Interfaces.ReinoAnimal;
 
-public class Cavalo extends Mamifero  implements  AnimalDomesticado{
+public class Cavalo extends Mamifero implements AnimalDomesticado {
 
     @Override
     public void levarVeterinario() {

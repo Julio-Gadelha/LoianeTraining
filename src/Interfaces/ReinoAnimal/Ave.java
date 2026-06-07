@@ -1,4 +1,4 @@
-package Interfaces;
+package Interfaces.ReinoAnimal;
 
 public  abstract class Ave extends Animal {
     public abstract  void voar();

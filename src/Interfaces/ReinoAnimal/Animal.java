@@ -1,4 +1,4 @@
-package Interfaces;
+package Interfaces.ReinoAnimal;
 
 public  abstract class Animal {
     private String nome;

@@ -1,6 +1,6 @@
-package Interfaces;
+package Interfaces.ReinoAnimal;
 
-public class Cachorro extends Mamifero  implements AnimalEstimacao,AnimalDomesticado{
+public class Cachorro extends Mamifero implements AnimalEstimacao, AnimalDomesticado {
 
 
     @Override
