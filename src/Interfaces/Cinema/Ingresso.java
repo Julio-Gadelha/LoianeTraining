@@ -20,8 +20,8 @@ public abstract class Ingresso implements Reservavel {
                 "Filme: " + filme + "\n" +
                 "Assento: " + assento + "\n" +
                 "Sessao: " + sessao + "\n" +
-                "Preco base: R$" + String.format("%.2f", sessao.getPreco()) + "\n" +
-                " Preco final: R$" + String.format("%.2f", calcularPreco()) + "\n" +
+                "Preco base: R$" +  sessao.getPreco() + "\n" +
+                " Preco final: R$" + calcularPreco() + "\n" +
                 "══════════════════════════════";
     }
 
