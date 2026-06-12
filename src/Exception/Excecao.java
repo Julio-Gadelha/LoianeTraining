@@ -2,7 +2,6 @@ package Exception;
 
 public class Excecao {
     public static void main(String[] args) {
-
         try{
             int[] vetor = new int[4];
             System.out.println("Antes da exception");

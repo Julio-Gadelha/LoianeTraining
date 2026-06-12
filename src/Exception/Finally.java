@@ -1,6 +1,6 @@
 package Exception;
 
-public class MultiCatch {
+public class Finally {
     public static void main(String[] args) {
         int[] numeros = {3, 56, 464, 244, 24,  421, 14};
         int[] demon = {2, 3, 4, 0, 2};
@@ -18,5 +18,4 @@ public class MultiCatch {
             }
         }
     }
-
 }
