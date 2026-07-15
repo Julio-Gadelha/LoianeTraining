@@ -14,7 +14,7 @@ public class Finally {
                 System.out.println("Posição do array inválida");
             }
             finally {
-                System.out.println("Essa linha é impressa sempre  após try e catch");
+                System.out.println("Essa linha é impressa sempre  após try e catch !");
             }
         }
     }

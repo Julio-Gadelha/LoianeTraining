@@ -11,6 +11,6 @@ public class Excecao {
         }catch(ArrayIndexOutOfBoundsException exception){
             System.out.println("Essa exceção ira acessar o indice do veto que não existe");
         }
-        System.out.println("Esse texto sera impresso");
+        System.out.println("Esse texto sera impresso !");
     }
 }
